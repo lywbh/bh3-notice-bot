@@ -1,0 +1,21 @@
+{
+  "ret": 1,
+  "apiver": 9,
+  "name": "bh3-notice-bot",
+  "version": "0.0.1",
+  "version_id": 1,
+  "author": "kamimi",
+  "description": "崩坏3公告通知机器人",
+  "event": [
+	{
+      "id": 1001,
+      "type": 1001,
+      "name": "酷Q启动事件",
+      "priority": 30000,
+      "function": "startup"
+    }
+  ],
+  "menu": [],
+  "status": [],
+  "auth": [101]
+}
